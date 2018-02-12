@@ -1,0 +1,124 @@
+客户端：cocos creator（js开发）
+服务器：node.js
+数据库：mysql
+数据库客户端：heilisql64 
+
+下载地址：
+1.cocos cretor  www.cocos.com
+2.node.js       http://nodejs.cn/
+3.mysql server  http:..pan.baidu.com/s/1dE5I3p3  密码：nhx8
+
+
+麻将源码结构：
+1.服务器：
+accout_server :账号验证登陆服务
+hall_server :大厅服务器
+majiang_server:麻将服务器代码
+node_modules:项目依赖的node的模块，node安装好了这些模块就会放到这文件夹下面
+sql:项目的数据库的文件，导入这个文件，就能够把这个服务器的数据库建立起来
+test:相关测试代码
+utils:一些常用的代码的封装，工具类的函数等
+
+2.客户端scripts:
+  3rdparty:第三方代码
+  components:游戏组件开始的代码
+  模块代码：全局模块的管理代码
+
+
+JS程序设计：
+  node.js               搭建基于node.js开发环境
+  数据类型 函数调用     基本数据类型，函数对象，表，数组，字符串，函数调用
+  JS程序三大结构        运算表达式 条件判断 循环语句垃圾回收
+  数组字符串表高级结构  Math函数数组表字符常用接口
+  JS模块new类继承       JS模块 new类 继承
+
+cocos creator 基础
+  初始cocos creator                  熟悉creator编辑器 项目结构
+  cc.node(一)场景树                  概念接口和使用
+  cc.node(二)事件相应                cc.node的事件响应的使用
+  cc.node(三)坐标空间转换            节点坐标空间转化知识
+  cc.node(四）Action的使用           节点Action的使用
+  cc.componment的使用                组件类的基本接口和使用
+  cc.Sprite组件的使用                cc.Sprite的使用和各种Sprite的类型
+  Botton组建的使用                    Button的使用 代码里面使用操作Button
+ cc.Label和cc.AudioSource组件的使用   系统文字，自定义字库，美术字库，Rich Text cc.AudioClip,AudioSource组件的使用
+ 动画编辑器的使用                     使用动画编辑器制作动画
+ sp.Skeleton骨骼动画组件使用          spine骨骼动画组件使用
+ cc.ParticleSystem组件使用            粒子的播放和使用
+ 预知体的制作与使用                   预制体应用
+
+第三方开发工具使用
+ Tiled地图编辑器使用                  Tiled地图编辑器制作地图与使用
+ TexturePacker图集打包和使用          Texture Packer图集打包和使用
+ BmpFont工具使用                      游戏开发美术字的制作和使用
+ 
+Creator高级使用
+ UI高级使用                           图形图像，时间进度条，滚动列表弹出式对话框与动画缓动对象，webview
+ 帧动画播放组件                       帧动画播放组件
+ 音乐与音效管理模块                   游戏项目中的音乐与音效管理模块
+ 资源加载与资源管理                   加载本地资源，加载远程资源
+ 物理引擎的使用                       开发物理引擎刚体组件与物理参数 碰撞器的编辑和使用 碰撞检测 碰撞管理
+ cc.Camera组件使用                    cc.Camera组件的使用和地图滚动
+ 
+Creator地图技术
+ 塔防类游戏制作地图                    使用动画编辑器制作地图路径 生成离散地图路径数据 怪物地图路径行走
+ 物理类游戏地图制作                   基于物理引擎的地图部署 人物的跳跃与跑动
+ 寻路导航组件扩展                     扩展编辑器生成地图数据 地图组件与Astar 寻路算法导航代理组件
+
+Creator网络技术 
+ 网络基础                             tcp/http基础
+ websocket的使用                      封装websocket的长连接使用
+ http client使用                      http 客户端get,post,download 
+ socket.io使用                        使用socket.io模块来做网络通讯
+
+creator JSB native 开发
+ FileUtils使用                        jsb.FileUtils使用
+ android调用java                      jsb android调用java代码
+ 本地摄像头调用                        本地摄像头调用
+ 本地语音调用
+  JS绑定                               c/c++接口绑定到js
+ 
+
+creator 上线与发布
+ 屏幕适配与资源优化                    屏幕适配和资源优化
+ H5发布打包                            发布H5网页游戏 定制LOGO ，架设webserver 
+ android打包发布                       android发布打包
+ ios打包发布                           ios打包发布
+ 热更新系统                            热更新新系统
+ 
+creator 项目实战
+ 游戏主页设计 
+ 帮助页面设计
+ 游戏场景设计
+ 游戏关卡数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
